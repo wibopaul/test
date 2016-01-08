@@ -1,0 +1,55 @@
+{
+  "elements":
+  [
+	{ "name": "country", "type": "Select", "caption": "Land",
+	  "options": [
+		{ "label": "Deutschland", "value": "D" },
+		{ "label": "Österreich", "value": "AT" }
+	  ]
+	},
+	{ "name": "area", "type": "Select", "caption": "Bundesland DE",
+	  "options": [
+		{ "label": "Baden-Wuerttemberg", "value": "BW" },
+		{ "label": "Bavaria", "value": "BY" },
+		{ "label": "Berlin", "value": "BE" },
+		{ "label": "Brandenburg", "value": "BB" },
+		{ "label": "Bremen", "value": "HB" },
+		{ "label": "Hamburg", "value": "HH" },
+		{ "label": "Hesse", "value": "HE" },
+		{ "label": "Mecklenburg-Vorpommern", "value": "MV" },
+		{ "label": "Lower Saxony", "value": "NI" },
+		{ "label": "North Rhine-Westphalia", "value": "NW" },
+		{ "label": "Rheinland-Pfalz", "value": "RP" },
+		{ "label": "Saarland", "value": "SL" },
+		{ "label": "Saxony", "value": "SN" },
+		{ "label": "Saxony-Anhalt", "value": "ST" },
+		{ "label": "Schleswig-Holstein", "value": "SH" },
+		{ "label": "Thuringia", "value": "TH" }
+	  ]
+	},
+	{ "name": "areaAT", "type": "Select", "caption": "Bundesland AT",
+	  "options": [
+		{ "label": "Burgenland", "value": "B" },
+		{ "label": "Kärnten", "value": "K" },
+		{ "label": "Niederösterreich", "value": "NOE" },
+		{ "label": "Oberösterreich", "value": "OOE" },
+		{ "label": "Salzburg", "value": "S" },
+		{ "label": "Steiermark", "value": "ST" },
+		{ "label": "Tirol", "value": "T" },
+		{ "label": "Vorarlberg", "value": "V" },
+		{ "label": "Wien", "value": "W" }
+	  ]
+	},
+	{ "name": "timeframe", "type": "Select", "caption": "Zeitraum",
+	  "options": [
+		{ "label": "Heute", "value": "today" },
+		{ "label": "Morgen", "value": "tomorrow" }
+	  ]
+	},
+    { "name": "timerinterval", "type": "IntervalBox", "caption": "Stunden" }
+  ],
+  "actions":
+  [
+	{ "type": "Button", "label": "Update", "onClick": "IQLFT_Update($id);" }
+  ]
+}
